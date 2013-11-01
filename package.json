@@ -9,10 +9,11 @@
     },
     "paths": ["local"],
     "main": "appstart.js",
-    "banner": "/** @jsx React.DOM */",
     "files": [
-      "./local/React/react.js",
-      "./local/React/JSXTransformer.js"
+      "./local/React/react.js"
     ]
+  },
+  "dependencies": {
+    "component-jsx":"latest"
   }
 }

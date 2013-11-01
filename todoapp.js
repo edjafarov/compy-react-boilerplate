@@ -1,3 +1,4 @@
+/** @jsx React.DOM */
 var TodoList = require('./todolist.js');
 
 module.exports = React.createClass({
